@@ -11,4 +11,8 @@ for x in c:
     else:
         d.append(x)
 d.sort()
-print (d)
+k=[]
+for x in d:
+    if x not in k:
+        k.append(x)
+print (k)
